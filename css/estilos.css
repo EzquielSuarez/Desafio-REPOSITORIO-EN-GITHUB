@@ -31,6 +31,7 @@ header div .logoWsp:hover{
     position: fixed;
     opacity: 0.8;
     cursor: pointer;
+    transition: all 600ms ease-out;
 }
 .enlace{
     padding: 1.25em 3.125rem;
@@ -56,6 +57,9 @@ header div .logoWsp:hover{
 .menu > li > a:hover{
     background-color: crimson;
     border-radius: 10px;
+    transform: scale(1.10);
+    transition: all 600ms ease-out;
+    transform: rotate(360deg);
 }
 
 /*Animación a Imagen Principal*/
