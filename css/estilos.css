@@ -17,7 +17,6 @@ body{
 header div .logoWsp:hover{
     border-radius: 50px;
     background-color: #0ad149;
-    transform: scale(1.1);
 }
 
 /*Estilos de HTML de Inicio*/
@@ -32,7 +31,7 @@ header div .logoWsp:hover{
     position: fixed;
     opacity: 0.8;
     cursor: pointer;
-    transition: all 300ms ease-out;
+    transition: all 600ms ease-out;
 }
 .enlace{
     padding: 1.25em 3.125rem;
@@ -58,8 +57,9 @@ header div .logoWsp:hover{
 .menu > li > a:hover{
     background-color: crimson;
     border-radius: 10px;
-    transform: scale(1.2);
-    transition: all 300ms ease-out;
+    transform: scale(1.10);
+    transition: all 600ms ease-out;
+    
 }
 
 /*Animación a Imagen Principal*/
