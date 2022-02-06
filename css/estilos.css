@@ -163,17 +163,20 @@ main .img1{
     margin: 10px;
     border-radius: 5px;
     transition: all 500ms ease-out;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.50) ;
     
 }
 main .img2{
     margin: 10px;
     border-radius: 5px;
     transition: all 500ms ease-out;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.50) ;
 }
 main .img3{
     margin: 10px;
     border-radius: 5px;
     transition: all 500ms ease-out;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.50) ;
     
 }
 /*Aplicando hover*/
@@ -191,15 +194,34 @@ main .img3:hover{
 
 article{
     grid-area: article;
-    margin: 1.25rem;
+    
+    margin: auto;
+    padding-top: 20px;
 }
-article h2{
+article .texto h3{
+    border-top: 3px solid grey  ;
     text-align: center;
+    font-size: 40px;
+    
     
 }
-article .parrafo{
+article p{
+    
+    font-size: 30px;
     text-align: left;
     line-height: 1.5em; 
+}
+article .calidad h3{
+    
+    margin-top: 30px;
+    border-top: 3px solid grey  ;
+    text-align: center;
+    font-size: 40px;
+}
+article .imgCalidad img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 /*Estilos de HTML del pie de página*/
