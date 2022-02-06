@@ -194,7 +194,7 @@ main .img3:hover{
 
 article{
     grid-area: article;
-    
+    width: 80%;
     margin: auto;
     padding-top: 20px;
 }
@@ -213,17 +213,30 @@ article p{
 }
 article .calidad h3{
     
-    margin-top: 30px;
+    margin-top: 50px;
     border-top: 3px solid grey  ;
     text-align: center;
     font-size: 40px;
 }
 article .imgCalidad img{
+    margin: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
+article .clientes h3{
+    
+    margin-top: 50px;
+    border-top: 3px solid grey  ;
+    text-align: center;
+    font-size: 40px;
+}
+article .imgClientes img{
+    margin: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 /*Estilos de HTML del pie de página*/
 footer{
     grid-area: footer;
