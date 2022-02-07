@@ -156,6 +156,21 @@ section .imgPrincipal{
 main{
     grid-area: main;
 }
+
+main .nuestrosProcutos{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .nuestrosProcutos h3{
+    border-top: 3px solid grey ;
+    width: 80%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+
 main .img123{
     display: flex;
     justify-content: space-around;
@@ -204,34 +219,21 @@ article{
     justify-content: center;
     
 }
-article .texto h3{
-    border-top: 3px solid grey  ;
-    text-align: center;
-    font-size: 40px;
-    
-}
-article p{
-    
-    font-size: 30px;
-    text-align: left;
-    line-height: 1.5em; 
-}
+
 article .calidad h3{
-    
-    margin-top: 50px;
-    border-top: 3px solid grey  ;
+    padding: 50px;
+    border-top: 3px solid grey ;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
 }
 article .imgCalidad img{
     width: 100%;
 }
 article .clientes h3{
-    
-    margin-top: 50px;
-    border-top: 3px solid grey  ;
+    padding-top: 50px;
+    border-top: 3px solid grey ;
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
 }
 article .imgClientes img{
     width: 100%;
@@ -349,19 +351,27 @@ footer{
 
 
 /*Estilos de HTML de Empresa*/
-main .empresa h4{
-    color: crimson;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 1.562rem;
+/*Se aplica Boostrap*/
+
+.Empresa{
+    padding-top: 9.3rem;
 }
-main .empresa{
-    padding: 12.5rem;
-    line-height: 2;
+main .nosotros{
+    height: 38rem;
+    background-color: rgba(0, 0, 0, .05);
 }
+main .nosotros img{
+    height: 34.3rem !important;
+}
+main section p span{
+    color: crimson !important;
+}
+
+
 
 
 /*Estilos de Productos*/
+
 .sectionProducto img{
     height: 15rem;
 }
