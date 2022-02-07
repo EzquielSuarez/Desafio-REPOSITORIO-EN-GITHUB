@@ -19,7 +19,7 @@ header div .logoWsp:hover{
     background-color: #0ad149;
 }
 
-/*Estilos de HTML de Inicio*/
+/*Estilos de barra de navegación*/
 .navegacion{
     z-index: 1;
     background-color: rgba(20,22,24,0.9);
@@ -31,7 +31,7 @@ header div .logoWsp:hover{
     position: fixed;
     opacity: 0.8;
     cursor: pointer;
-    transition: all 600ms ease-out;
+    transition: all 300ms ease-out;
 }
 .enlace{
     padding: 1.25em 3.125rem;
@@ -58,7 +58,7 @@ header div .logoWsp:hover{
     background-color: crimson;
     border-radius: 10px;
     transform: scale(1.10);
-    transition: all 600ms ease-out;
+    transition: all 300ms ease-out;
     
 }
 
@@ -327,48 +327,10 @@ main .empresa{
 
 
 /*Estilos de HTML de Productos*/
-/*Aplicando GRID y Responsive*/
-
-.gridProducto{
-    padding-top: 120px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) ;
-    grid-template-columns: minmax(200px, auto);
-    gap: 20px;
-    padding: 100x;
-    justify-content: center;
-}
-
-main .imagen1{
+.producto{
+    padding-top: 150px;
     
-    width: auto;
-    height: 300px;
 }
-main .imagen2{
-    
-    width: auto;
-    height: 20rem;
-}
-main .imagen3{
-    
-    width: auto;
-    height: 20rem;
-}
-main .imagen4{
-    
-    width: auto;
-    height: 20rem;
-}
-main .imagen5{
-    
-    width: auto;
-    height: 20rem;
-}
-main .imagen6{
-    width: auto;
-    height: 20rem;
-}
-
 
 /*Estilos de HTML de Servicios*/
 main .servicios h4{
