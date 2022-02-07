@@ -31,7 +31,7 @@ header div .logoWsp:hover{
     position: fixed;
     opacity: 0.8;
     cursor: pointer;
-    transition: all 300ms ease-out;
+    
 }
 .enlace{
     padding: 1.25em 3.125rem;
@@ -54,14 +54,16 @@ header div .logoWsp:hover{
     text-decoration: none;
     text-transform: uppercase;
 }
-.menu > li > a:hover{
-    background-color: crimson;
-    border-radius: 10px;
-    transform: scale(1.10);
-    transition: all 300ms ease-out;
-    
+.menu > li > ul > li > a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
 }
-
+.menu > li > a:hover{
+    color: crimson;
+    transform: scale(1.3);
+}
 /*Animación a Imagen Principal*/
 
 .imgPrincipal{
@@ -179,7 +181,7 @@ main .img3{
     box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.50) ;
     
 }
-/*Aplicando hover*/
+/*Aplicando hover a img1, img2 y img3*/
 
 main .img1:hover{
     transform: scale(1.1);
@@ -197,12 +199,15 @@ article{
     width: 80%;
     margin: auto;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 article .texto h3{
     border-top: 3px solid grey  ;
     text-align: center;
     font-size: 40px;
-    
     
 }
 article p{
@@ -219,10 +224,7 @@ article .calidad h3{
     font-size: 40px;
 }
 article .imgCalidad img{
-    margin: 50px;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 article .clientes h3{
     
@@ -232,10 +234,7 @@ article .clientes h3{
     font-size: 40px;
 }
 article .imgClientes img{
-    margin: 50px;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 /*Estilos de HTML del pie de página*/
 footer{
@@ -246,8 +245,9 @@ footer{
     text-align: center;
     
 }
-/*Responsive en HTML de inicio*/
 
+
+/*Responsive*/
 
 @media (max-width: 1200px){
     main .img123{
@@ -283,14 +283,30 @@ footer{
     main .img3{
         width: 31.25rem;
     }
+    .sectionProducto .imagenProductos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionProductoDos .imagenProductoDos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 480px){
+    .imgPrincipal{
+        height: 500px;
+    }
     .imgPrincipal figure .capa h3{
         font-size: 40px;
     }
     .imgPrincipal figure .capa p{
         font-size: 15px;
     }
+    
     article .texto .parrafo{
         font-size: 0.9375rem;
     }
@@ -309,6 +325,26 @@ footer{
         width: 25rem;
     }
     
+    article .imgCalidad img{
+        height: 60px;
+    }
+    article .imgClientes img{
+        height: 60px;
+    }
+    article .texto h3{
+        font-size: 30px;
+    }
+    article .texto p{
+        font-size: 20px;
+    }
+    article .calidad h3{
+        font-size: 30px;
+    }
+    
+    article .clientes h3{
+        font-size: 30px;
+    }
+   
 }
 
 
@@ -322,15 +358,60 @@ main .empresa h4{
 main .empresa{
     padding: 12.5rem;
     line-height: 2;
-    
 }
 
 
-/*Estilos de HTML de Productos*/
-.producto{
+/*Estilos de Productos*/
+.sectionProducto img{
+    height: 15rem;
+}
+.sectionProductoDos img{
+    height: 15.5rem;
+}
+
+
+.sectionProducto{
+    overflow: hidden;
+    width: 100%;
     padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
     
 }
+.sectionProducto .imagenProductos >a >img{
+    margin: 30px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.50);
+}
+.sectionProducto .imagenProductos >a >img:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.sectionProductoDos{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s;
+}
+.sectionProductoDos .imagenProductoDos > a > img{
+    margin: 30px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.50);
+}
+.sectionProductoDos .imagenProductoDos>a >img:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+
+ 
 
 /*Estilos de HTML de Servicios*/
 main .servicios h4{
