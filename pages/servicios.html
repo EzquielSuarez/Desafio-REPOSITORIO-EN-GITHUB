@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    
+    <meta name="keywonds" content="deteccion-extincion"/>
+    <meta name="description" content="TWINS. Soluciones Integrales de Protección Contra Incendios. Instalaciones Fijas Contra Incendios y Mantenimiento Integral"/>
+    <title>TWINS Ingenieria SRL. Detección y Extinción. Servicios</title>
+    <!--Link de estilos-->
+    <link rel="stylesheet" href="../estilos/main.css">
+    <!--Link de checkbox-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <!--Menu de Navegación-->
     <header>
         <!--Boton de WhatsApp-->
         <div class="botonWhatsapp">
@@ -17,29 +20,90 @@
                 <img class="logoWsp" src="../imagen/Whatsapp_icon-icons.com_66931.png" alt="logoWhatsapp">
             </a>
         </div>
-        <!--Links de Navegación-->  
+        <!--Menu de Navegación--> 
+        <!--==================================================================-->
         <nav class="navegacion">
+            <!--Checkbox-->
+            <!--==================================================================-->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+             <!--Logo de la Empresa-->
+             <!--==================================================================-->
             <a href="#" class="enlace">
                 <img src="../imagen/logoTwins.png" alt="logoTwins" class="logo">
             </a>
+            <!--Links de Navegación-->    
+            <!--==================================================================-->
             <ul class="menu">
-                <li> <a href="../index.html">Inicio</a> </li>
-                <li> <a href="empresa.html">Empresa</a> </li>
-                <li> <a href="productos.html">Productos</a> </li>
-                <li> <a href="servicios.html">Servicios</a> </li>
-                <li> <a href="contacto.html">Contacto</a> </li>
+                <li>
+                <a href="../index.html">Inicio</a> 
+                </li>
+                <li> 
+                <a href="empresa.html">Empresa</a> 
+                </li>
+                <li> 
+                <a href="productos.html">Productos</a> 
+                </li>
+                <li> 
+                <a class="active" href="servicios.html">Servicios</a> 
+                </li>
+                <li> 
+                <a href="contacto.html">Contacto</a> 
+                </li>
             </ul>
         </nav>
     </header>
     <!--Contenido-->
+    <section class="imgServicios">
+        <figure>
+          <img class="imgDeServicios" src="../imagen/prevencion-de-incendios-en-industrias-1024x683.jpg" alt="deteccionDeIncendio">
+          <div class="capa2">
+            <h3>
+              Nuestros Servicios
+            </h3>
+          </div>
+        </figure>
+    </section>
+    
     <main>
-        <div class="servicios">
-            <h4>Nuestros Servicios</h4>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni odio tenetur, nemo quos possimus quaerat reprehenderit quod cum nobis vitae nam error nostrum, inventore quo labore velit accusantium? Quas, voluptatum?
-            </p>
+      <div class="serviciosEstilos">
+        <div class="imagenesServicios">
+          <a href="../pages/deteccion.html">
+            <img src="../imagen/smokeDetector.png" alt="imgDeteccion">
+            <div class="overlay4">
+              <p>
+                Sistemas de Detección de incendios
+              </p>
+            </div>
+           </a>
         </div>
+        <div class="imagenesServicios">
+          <a href="../pages/extincion.html">
+            <img src="../imagen/imgSistemaExtincion.jpg" alt="imgExtincion">
+            <div class="overlay4">
+              <p>
+                Sistemas de Extinción de incendios
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="imagenesServicios"> 
+          <a href="../pages/mantenimiento.html">
+            <img src="../imagen/imgMantenimiento.png" alt="imgMantenimiento">
+            <div class="overlay4">
+              <p>
+                Servicios de Mantenimiento
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
     </main>
+
+   
+
     <!--Pie de página-->
     <footer>
         <p>Cordoba, Capital C.P:5000</p>

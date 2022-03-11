@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <meta name="keywonds" content="deteccion-extincion"/>
+    <meta name="description" content="TWINS. Soluciones Integrales de Protección Contra Incendios. Instalaciones Fijas Contra Incendios y Mantenimiento Integral"/>
+    <title>TWINS Ingenieria SRL. Detección y Extinción. Productos</title>
     <!--Link de estilos-->
-    <link rel="stylesheet" href="../estilos/estilos.css">
-    
+    <link rel="stylesheet" href="../estilos/main.css">
+    <!--Link de checkbox-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-      <!--Menu de Navegación-->
     <header>
         <!--Boton de WhatsApp-->
         <!--==================================================================-->
@@ -19,52 +21,112 @@
                 <img class="logoWsp" src="../imagen/Whatsapp_icon-icons.com_66931.png" alt="logoWhatsapp">
             </a>
         </div>
-        <!--Links de Navegación-->  
+        <!--Menu de Navegación--> 
         <!--==================================================================-->
         <nav class="navegacion">
+            <!--Checkbox-->
+            <!--==================================================================-->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+             <!--Logo de la Empresa-->
+             <!--==================================================================-->
             <a href="#" class="enlace">
                 <img src="../imagen/logoTwins.png" alt="logoTwins" class="logo">
             </a>
+            <!--Links de Navegación-->    
+            <!--==================================================================-->
             <ul class="menu">
-                <li> <a href="../index.html">Inicio</a> </li>
-                <li> <a href="empresa.html">Empresa</a> </li>
-                <li> <a href="productos.html">Productos</a> </li>
-                <li> <a href="servicios.html">Servicios</a> </li>
-                <li> <a href="contacto.html">Contacto</a> </li>
-            </ul>
+                <li>
+                <a href="../index.html">Inicio</a> 
+                </li>
+                <li> 
+                <a href="empresa.html">Empresa</a> 
+                </li>
+                <li> 
+                <a class="active" href="productos.html">Productos</a> 
+                </li>
+                <li> 
+                <a href="servicios.html">Servicios</a> 
+                </li>
+                <li> 
+                <a href="contacto.html">Contacto</a> 
+                </li>
             </ul>
         </nav>
     </header>
 
     <!--Contenido-->
     <!--==================================================================-->
-    <section class="sectionProducto">
-        <div class="imagenProductos">  
-            <a href="#">
-            <img src="../imagen/Central1.png" alt="" class="imagen1">
-            </a>   
-            <a href="#">
-                <img src="../imagen/Extintores.jpeg" alt="" class="imagen2">
-            </a>
-            <a href="#">
-                <img src="../imagen/mangueras.png" alt="" class="imagen3">
-            </a>
-        </div>  
-    </section>
-    <section class="sectionProductoDos">
-        <div class="imagenProductoDos">  
-            <a href="#">
-                <img src="../imagen/gabinetes.png" alt="" class="imagen4">
-            </a>
-            <a href="#">
-                <img src="../imagen/bronceria.png" alt="" class="imagen5">
-            </a>
-            <a href="#">
-                <img src="../imagen/elementosProteccion.png" alt="" class="imagen6">
-            </a>
-        </div>
-    </section>
- 
+    <main>
+        <section class="sectionProducto">
+            <div class="imgProcutos">
+                <a href="#">
+                    <img src="../imagen/Central1.png" alt="" class="imagen1">
+                    <div class="overlay">
+                        <p>
+                            Centrales <br> de Incendio <br> y elementos vinculados
+                        </p>
+                    </div>
+                </a>         
+            </div>
+            <div class="imgProcutos">
+                <a href="#">
+                    <img src="../imagen/Extintores.jpeg" alt="" class="imagen2">
+                    <div class="overlay">
+                        <p>
+                            Matafuegos
+                        </p>
+                    </div>
+                </a>        
+            </div>
+            <div class="imgProcutos">
+                <a href="#">
+                    <img src="../imagen/mangueraIncendio.png" alt="" class="imagen3">
+                    <div class="overlay">
+                        <p>
+                            Mangueras <br> de Incendio
+                        </p>
+                    </div>
+                </a>
+                
+            </div>
+            <div class="imgProcutos">
+                <a href="#">
+                    <img src="../imagen/gabineteDeIncendio.jpg" alt="" class="imagen4">
+                    <div class="overlay">
+                        <p>
+                            Gabinetes <br> para mangueras <br> y extintores
+                        </p>
+                    </div>
+                </a>
+               
+            </div>         
+            <div class="imgProcutos">
+                <a href="#">
+                    <img src="../imagen/broceria.jpg" alt="" class="imagen5">
+                    <div class="overlay">
+                        <p>
+                            Brocería <br> para incendio
+                        </p>
+                    </div>
+                </a>
+                
+            </div>
+            <div class="imgProcutos">
+                <a href="#">
+                    <img src="../imagen/rociadorDeIndencio.png" alt="" class="imagen5">
+                    <div class="overlay">
+                        <p>
+                            Rociadores <br> de Incendio
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    
     <!--Pie de página-->
     <!--==================================================================-->
     <footer class="footerProducto">
