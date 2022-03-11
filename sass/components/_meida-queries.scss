@@ -99,6 +99,9 @@
             }
         }
     }
+    .imgServicios{
+        height: 500px;
+    }
     .estilosContacto{
         .formulario{
             .contact-wrapper {
@@ -115,6 +118,7 @@
     .grid{
         .imgPrincipal{
             height: 500px;
+
         }
         figure{
             .capa{
@@ -132,29 +136,43 @@
                     padding-top: 10px;
                     font-size: 30px;
                 }
-                .somos{
-                    .somosParrafo{
-                        p{
+            .somos{
+                .somosParrafo{
+                    p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0;
+                    }
+                    .boton{
+                        a{
                             display: flex;
-                            justify-content: center;
-                            align-items: center;
                             margin: 0;
-                        }
-                        .boton{
-                            a{
-                                display: flex;
-                                margin: 0;
-                            }
                         }
                     }
                 }
             }
-            .nuestrosServicios{
-                h4{
+            }
+            .nuestrosServicios {
+                h4 {
                     padding-top: 10px;
                     font-size: 30px;
                 }
             }
+            .img123 {
+                width: 100%;
+                .imgUno {
+                    width: 100%;
+                    a{
+                        .overlay3 {
+                            background: rgba(0, 0, 0, 0.5);
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+            
+            
             
         }
         article{
@@ -177,18 +195,52 @@
             font-size: 18px;
         }
     }
+
+    main{
+        .sectionProducto{
+            .imgProcutos{
+                a{
+                    .overlay{
+                        background: rgba(0, 0, 0, 0.5);
+                        height: 100%;
+                    }
+                }
+            } 
+        }
+    }
+
     
     .imgServicios{
         height: 500px;
         figure{
             .capa2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                opacity: 1;
+                visibility: visible;
                 h3{
+                    margin-bottom: 15px;
                     font-size: 40px;
                 }
             }
         }
     }
-
-    
+    main{
+        .serviciosEstilos{
+            width: 100%;
+            .imagenesServicios{
+                width: 100%;
+                a{
+                     .overlay4{
+                        background: rgba(0, 0, 0, 0.5);
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
     
 }

@@ -486,6 +486,8 @@ section .serviciosEstilos {
     width: 100%;
     height: 100%;
     object-fit: none; }
+  .imgServicios {
+    height: 500px; }
   .estilosContacto .formulario .contact-wrapper {
     display: flex;
     flex-direction: column; } }
@@ -511,6 +513,13 @@ section .serviciosEstilos {
   .grid main .nuestrosServicios h4 {
     padding-top: 10px;
     font-size: 30px; }
+  .grid main .img123 {
+    width: 100%; }
+    .grid main .img123 .imgUno {
+      width: 100%; }
+      .grid main .img123 .imgUno a .overlay3 {
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%; }
   .grid article .calidad h4 {
     font-size: 30px;
     padding-top: 5px; }
@@ -519,7 +528,26 @@ section .serviciosEstilos {
     padding-top: 10px; }
   .Empresa p {
     font-size: 18px; }
+  main .sectionProducto .imgProcutos a .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%; }
   .imgServicios {
     height: 500px; }
-    .imgServicios figure .capa2 h3 {
-      font-size: 40px; } }
+    .imgServicios figure .capa2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      opacity: 1;
+      visibility: visible; }
+      .imgServicios figure .capa2 h3 {
+        margin-bottom: 15px;
+        font-size: 40px; }
+  main .serviciosEstilos {
+    width: 100%; }
+    main .serviciosEstilos .imagenesServicios {
+      width: 100%; }
+      main .serviciosEstilos .imagenesServicios a .overlay4 {
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%; } }
