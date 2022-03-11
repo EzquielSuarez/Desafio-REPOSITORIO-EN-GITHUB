@@ -30,6 +30,15 @@
 
 @media (max-width: 830px){
     header{
+        .botonWhatsapp{
+            bottom: 1.5rem;
+            right: 0.5rem;
+            a{
+                img{
+                    height: 55px;
+                }
+            }
+        }
         nav{
             .enlace{
                 padding: 6px;
@@ -142,7 +151,14 @@
             }
         }
     }
-
+    footer{
+        .grupo-1{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:30px;
+            padding: 35px 0px;
+        }
+    }
 }
 
 
