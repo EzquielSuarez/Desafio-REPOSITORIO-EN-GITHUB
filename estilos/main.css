@@ -1,50 +1,52 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-header .botonWhatsapp {
-  z-index: 2;
-  position: fixed;
-  bottom: 3.125rem;
-  right: 1.875rem; }
-  header .botonWhatsapp:hover .logoWsp {
-    border-radius: 50px;
-    background-color: #0ad149; }
-
-header nav {
-  height: 80px;
-  width: 100%;
-  z-index: 1;
-  background-color: rgba(20, 22, 24, 0.9);
-  height: auto;
-  position: fixed;
-  opacity: 0.9;
-  display: flex;
-  align-items: center;
-  justify-content: space-between; }
-  header nav .enlace {
-    padding: 20px 20px; }
-  header nav ul {
-    margin-right: 20px; }
-    header nav ul li {
-      display: inline-block;
-      line-height: 80px;
-      margin: 0 5px; }
-      header nav ul li a {
-        color: #fff;
-        font-size: 18px;
-        padding: 7px 13px;
-        border-radius: 3px;
-        text-transform: uppercase;
-        text-decoration: none; }
-        header nav ul li a:hover {
-          color: crimson;
-          transition: .5s; }
-      header nav ul li .active {
-        color: crimson; }
-  header nav .logo {
-    height: 40px; }
+header {
+  /*Estilos en menu de Navegacón*/ }
+  header .botonWhatsapp {
+    z-index: 2;
+    position: fixed;
+    bottom: 3.125rem;
+    right: 1.875rem; }
+    header .botonWhatsapp:hover .logoWsp {
+      border-radius: 50px;
+      background-color: #0ad149; }
+  header nav {
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(20, 22, 24, 0.9);
+    height: auto;
+    position: fixed;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    header nav .enlace {
+      padding: 20px 20px; }
+    header nav ul {
+      margin-right: 20px; }
+      header nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px; }
+        header nav ul li a {
+          color: #fff;
+          font-size: 18px;
+          padding: 7px 13px;
+          border-radius: 3px;
+          text-transform: uppercase;
+          text-decoration: none; }
+          header nav ul li a:hover {
+            color: crimson;
+            transition: .5s; }
+        header nav ul li .active {
+          color: crimson; }
+    header nav .logo {
+      height: 40px; }
 
 /*Estilos en Checkbox*/
 .checkbtn {
@@ -59,7 +61,7 @@ header nav {
 #check {
   display: none; }
 
-/*Aplicando Grid*/
+/*Aplicando Grid a HTML de Inicio*/
 .grid {
   overflow: hidden;
   height: auto;
@@ -426,10 +428,10 @@ section .serviciosEstilos {
             background: #d63031; }
 
 /*Estilos del Footer*/
-footer {
+body footer {
   width: 100%;
   background-color: #0a141d; }
-  footer .grupo-1 {
+  body footer .grupo-1 {
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -437,27 +439,27 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 30px 0px; }
-    footer .grupo-1 .box figure {
+    body footer .grupo-1 .box figure {
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center; }
-      footer .grupo-1 .box figure img {
+      body footer .grupo-1 .box figure img {
         padding: 10px;
         background-color: white;
         width: 250px; }
-    footer .grupo-1 .box h5 {
+    body footer .grupo-1 .box h5 {
       color: #fff;
       font-size: 20px; }
-    footer .grupo-1 .box ul li {
+    body footer .grupo-1 .box ul li {
       color: #efefef; }
-      footer .grupo-1 .box ul li a {
+      body footer .grupo-1 .box ul li a {
         text-decoration: none;
         color: #efefef; }
-        footer .grupo-1 .box ul li a:hover {
+        body footer .grupo-1 .box ul li a:hover {
           color: crimson; }
-    footer .grupo-1 .box .red-social a {
+    body footer .grupo-1 .box .red-social a {
       display: inline-block;
       text-decoration: none;
       width: 45px;
@@ -468,14 +470,14 @@ footer {
       background-color: #0d2033;
       text-align: center;
       transition: all 300ms ease; }
-      footer .grupo-1 .box .red-social a:hover {
+      body footer .grupo-1 .box .red-social a:hover {
         color: aqua; }
-  footer .grupo-2 {
+  body footer .grupo-2 {
     background-color: #0a1a2a;
     padding: 15px 10px;
     text-align: center;
     color: #fff; }
-    footer .grupo-2 small {
+    body footer .grupo-2 small {
       font-size: 15px; }
 
 /*Media queries*/

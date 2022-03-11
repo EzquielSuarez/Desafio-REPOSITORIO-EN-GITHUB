@@ -5,6 +5,7 @@
 
 }
 header{
+    //Boton de Whatapp
     .botonWhatsapp{
         z-index: 2;
         position: fixed;
@@ -15,6 +16,7 @@ header{
             background-color: #0ad149;
         }
     }
+    /*Estilos en menu de Navegacón*/
     nav{
         height: 80px;
         width: 100%;
@@ -71,7 +73,7 @@ header{
 #check{
     display: none;
 }
-/*Aplicando Grid*/
+/*Aplicando Grid a HTML de Inicio*/
 .grid{
     overflow: hidden;
     height: auto;
