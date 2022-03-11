@@ -437,9 +437,17 @@ section .serviciosEstilos {
 /*Media queries*/
 @media (max-width: 1200px) {
   nav ul li a {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .grid main .somos {
+    width: 90%;
+    display: flex;
+    flex-direction: column; }
+    .grid main .somos img {
+      margin-bottom: 20px; }
+    .grid main .somos .somosParrafo p {
+      width: 180%; } }
 
-@media (max-width: 825px) {
+@media (max-width: 830px) {
   header nav {
     display: flex;
     flex-direction: row-reverse; }
@@ -470,24 +478,30 @@ section .serviciosEstilos {
           color: red; }
   #check:checked ~ ul {
     left: 0; }
-  .grid .imgPrincipal figure .capa h3 {
-    font-size: 50px; }
-  .grid .imgPrincipal figure .capa p {
-    font-size: 20px; }
-  .grid main .somos {
-    width: 90%;
-    display: flex;
-    flex-direction: column; }
-    .grid main .somos img {
-      margin-bottom: 20px; }
-    .grid main .somos .somosParrafo p {
-      width: 180%; }
+  .grid .imgPrincipal {
+    height: 500px; }
+    .grid .imgPrincipal figure .capa h3 {
+      font-size: 50px; }
+    .grid .imgPrincipal figure .capa p {
+      font-size: 20px; }
+  .grid main .img123 {
+    width: 90%; }
+    .grid main .img123 .imgUno {
+      width: 90%; }
+      .grid main .img123 .imgUno a .overlay3 p {
+        font-size: 40px; }
   main .sectionProduct .imgProcutos a img {
     width: 100%;
     height: 100%;
     object-fit: none; }
   .imgServicios {
     height: 500px; }
+  main .serviciosEstilos {
+    width: 90%; }
+    main .serviciosEstilos .imagenesServicios {
+      width: 90%; }
+      main .serviciosEstilos .imagenesServicios a .overlay4 p {
+        font-size: 40px; }
   .estilosContacto .formulario .contact-wrapper {
     display: flex;
     flex-direction: column; } }
@@ -495,6 +509,17 @@ section .serviciosEstilos {
 @media (max-width: 480px) {
   .grid .imgPrincipal {
     height: 500px; }
+    .grid .imgPrincipal figure .capa {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      opacity: 1;
+      visibility: visible; }
+      .grid .imgPrincipal figure .capa h3 {
+        margin-bottom: 15px;
+        font-size: 40px; }
   .grid figure .capa h3 {
     font-size: 40px; }
   .grid figure .capa p {
@@ -550,4 +575,6 @@ section .serviciosEstilos {
       width: 100%; }
       main .serviciosEstilos .imagenesServicios a .overlay4 {
         background: rgba(0, 0, 0, 0.5);
-        height: 100%; } }
+        height: 100%; }
+        main .serviciosEstilos .imagenesServicios a .overlay4 p {
+          font-size: 30px; } }
