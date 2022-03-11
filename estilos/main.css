@@ -1,52 +1,50 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
-header {
-  /*Estilos en menu de Navegacón*/ }
-  header .botonWhatsapp {
-    z-index: 2;
-    position: fixed;
-    bottom: 3.125rem;
-    right: 1.875rem; }
-    header .botonWhatsapp:hover .logoWsp {
-      border-radius: 50px;
-      background-color: #0ad149; }
-  header nav {
-    height: 80px;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(20, 22, 24, 0.9);
-    height: auto;
-    position: fixed;
-    opacity: 0.9;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    header nav .enlace {
-      padding: 20px 20px; }
-    header nav ul {
-      margin-right: 20px; }
-      header nav ul li {
-        display: inline-block;
-        line-height: 80px;
-        margin: 0 5px; }
-        header nav ul li a {
-          color: #fff;
-          font-size: 18px;
-          padding: 7px 13px;
-          border-radius: 3px;
-          text-transform: uppercase;
-          text-decoration: none; }
-          header nav ul li a:hover {
-            color: crimson;
-            transition: .5s; }
-        header nav ul li .active {
-          color: crimson; }
-    header nav .logo {
-      height: 40px; }
+header .botonWhatsapp {
+  z-index: 2;
+  position: fixed;
+  bottom: 3.125rem;
+  right: 1.875rem; }
+  header .botonWhatsapp:hover .logoWsp {
+    border-radius: 50px;
+    background-color: #0ad149; }
+
+header nav {
+  height: 80px;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(20, 22, 24, 0.9);
+  height: auto;
+  position: fixed;
+  opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header nav .enlace {
+    padding: 20px 20px; }
+  header nav ul {
+    margin-right: 20px; }
+    header nav ul li {
+      display: inline-block;
+      line-height: 80px;
+      margin: 0 5px; }
+      header nav ul li a {
+        color: #fff;
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        text-decoration: none; }
+        header nav ul li a:hover {
+          color: crimson;
+          transition: .5s; }
+      header nav ul li .active {
+        color: crimson; }
+  header nav .logo {
+    height: 40px; }
 
 /*Estilos en Checkbox*/
 .checkbtn {
@@ -556,7 +554,7 @@ body footer {
   .estilosContacto .formulario .contact-wrapper {
     display: flex;
     flex-direction: column; }
-  footer .grupo-1 {
+  body footer .grupo-1 {
     width: 90%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
