@@ -80,9 +80,37 @@ main{
             min-width: 200px;
             border-radius: 5px;
             a{
-                @include servicios;
+                img{
+                    
+                    border-radius: 5px;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    box-shadow: $sombraUno;
+                }
+                .overlay4{
+                    @extend %displayFlex;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background: rgba(0, 0, 0, 0.7);
+                    width: 100%;
+                    height: 0;
+                    border-radius: 5px;
+                    overflow: hidden;
+                    p{
+                        color: white;
+                        font-size: 30px;
+                        position: absolute;
+                        text-align: center;
+                    }
+                }
+                    &:hover .overlay4{
+                        height: 100%;
+                    }
             }
         }
+       
     }
 }
 
