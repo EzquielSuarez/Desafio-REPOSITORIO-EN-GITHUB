@@ -1,4 +1,9 @@
 @charset "UTF-8";
+.grid .imgPrincipal, .grid main .img123 .imgUno a .overlay3, .grid main .nuestrosServicios, footer .grupo-1 .box figure, main .sectionProducto .imgProcutos a .overlay, .imgServicios, main .serviciosEstilos .imagenesServicios a .overlay3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -68,9 +73,6 @@ header nav {
   grid-template-areas: "principal principal principal" "main main main" "article article article"; }
   .grid .imgPrincipal {
     grid-area: principal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 100vh;
     margin-bottom: 50px; }
@@ -174,9 +176,6 @@ header nav {
           box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5); }
         .grid main .img123 .imgUno a .overlay3 {
           position: absolute;
-          display: flex;
-          justify-content: center;
-          align-items: center;
           bottom: 0;
           left: 0;
           background: rgba(0, 0, 0, 0.7);
@@ -192,10 +191,7 @@ header nav {
         .grid main .img123 .imgUno a:hover .overlay3 {
           height: 100%; }
     .grid main .nuestrosServicios {
-      padding: 50px;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+      padding: 50px; }
       .grid main .nuestrosServicios h4 {
         border-top: 3px solid grey;
         width: 80%;
@@ -239,10 +235,7 @@ footer {
     padding: 30px 0px; }
     footer .grupo-1 .box figure {
       width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
+      height: 100%; }
       footer .grupo-1 .box figure img {
         padding: 10px;
         background-color: white;
@@ -317,9 +310,6 @@ main .sectionProducto {
       object-fit: cover; }
     main .sectionProducto .imgProcutos a .overlay {
       position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       bottom: 0;
       left: 0;
       background: rgba(0, 0, 0, 0.7);
@@ -338,9 +328,6 @@ main .sectionProducto {
 
 /*Estilos en HTML de Servicios*/
 .imgServicios {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100vh;
   margin-bottom: 50px; }
@@ -409,11 +396,8 @@ main .serviciosEstilos {
       height: 100%;
       object-fit: cover;
       box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.5); }
-    main .serviciosEstilos .imagenesServicios a .overlay4 {
+    main .serviciosEstilos .imagenesServicios a .overlay3 {
       position: absolute;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       bottom: 0;
       left: 0;
       background: rgba(0, 0, 0, 0.7);
@@ -421,12 +405,12 @@ main .serviciosEstilos {
       height: 0;
       border-radius: 5px;
       overflow: hidden; }
-      main .serviciosEstilos .imagenesServicios a .overlay4 p {
+      main .serviciosEstilos .imagenesServicios a .overlay3 p {
         color: white;
         font-size: 30px;
         position: absolute;
         text-align: center; }
-    main .serviciosEstilos .imagenesServicios a:hover .overlay4 {
+    main .serviciosEstilos .imagenesServicios a:hover .overlay3 {
       height: 100%; }
 
 section .serviciosEstilos {

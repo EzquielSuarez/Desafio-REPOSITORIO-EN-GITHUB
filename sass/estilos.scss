@@ -1,7 +1,12 @@
-@import "base/estilos-index";
-@import "base/estilos-empresa";
-@import "base/estilos-productos";
-@import "base/estilos-servicios";
-@import "base/estilos-contacto";
+@import "base/variables";
+@import "base/extends";
+@import "base/mixins";
+@import "components/estilos-index";
+@import "components/estilos-empresa";
+@import "components/estilos-productos";
+@import "components/estilos-servicios";
+@import "components/estilos-contacto";
+@import "base/meida-queries";
 
-@import "components/meida-queries";
+
+

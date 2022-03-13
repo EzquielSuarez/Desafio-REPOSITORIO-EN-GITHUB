@@ -16,7 +16,7 @@ main{
             position: relative;
             height: 300px;
             margin-bottom: 5px;
-            box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+            box-shadow: $sombraDos;
             flex: 350px;
             min-width: 200px;
            a{
@@ -26,10 +26,8 @@ main{
                 object-fit: cover;
                }
                .overlay{
+                @extend %displayFlex;
                 position: absolute;
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 bottom: 0;
                 left: 0;
                 background: rgba(0, 0, 0, 0.7);
